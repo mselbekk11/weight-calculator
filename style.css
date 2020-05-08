@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+/* :root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+} */
+
+body {
+  background-color: #f9fafb;
+  font-family: "open sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 20px 0px 10px 0px;
+}
+
+form {
+  padding: 20px 40px 30px 40px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+h4 {
+  display: inline-block;
+  color: #fff;
+  margin: 0px;
+}
+
+#kgOutput {
+  display: inline-block;
+  color: #fff;
+}
+
+/* h4 {padding: 20px 20px;} */
+
+.card-primary {background-color: rgb(96, 96, 224);padding: 20px;}
+
+.card-success {background-color: rgb(95, 182, 92);padding: 20px;}
+
+.card-danger {background-color: red;padding: 20px;}
